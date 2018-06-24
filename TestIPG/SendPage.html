@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form method="post" action="https://85.133.186.11:7676/ipgapp/start">
+        
+        <table style="font-family: tahoma, serif;font-size: 12px;">
+            <tbody>
+                <tr>
+                    <td>سازمان</td>
+                    <td><input type="text" id="ProviderIdentifier" name="ProviderIdentifier" value="100000100"></td>
+                </tr>
+                <tr>
+                    <td>مبلغ به ریال</td>
+                    <td><input type="text" id="Amount" name="Amount" value="1000"></td>
+                </tr>
+                <tr>
+                    <td>شماره فاکتور سازمان</td>
+                    <td><input type="text" id="RequestIdentifier" name="RequestIdentifier"></td>
+                </tr>
+                <tr>
+                    <td>آدرس صفحه بازگشتی</td>
+                    <td><input type="text" id="RedirectUrl" name="RedirectUrl"></td>
+                </tr>
+                <tr>
+                    <td>شناسه واریز</td>
+                    <td><input type="text" id="DepositIdentifier" name="DepositIdentifier"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="پرداخت"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
